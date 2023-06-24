@@ -3,7 +3,6 @@
 /**
  * print_numbers - print the numbers from 1 to 9
  */
-int _putchar(char c);
 void print_numbers(void)
 {
 	int n;
@@ -13,6 +12,6 @@ void print_numbers(void)
 		_putchar(n + '0');
 	}
 
-	printf('\n')
+	_putcher('\n')
 
 }
