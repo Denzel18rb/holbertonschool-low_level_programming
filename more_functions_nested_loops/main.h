@@ -5,5 +5,6 @@
  *
  * Return: 0 (Success)
  */
+int _isdigit(int c);
 int _isupper(int c);
 #endif
