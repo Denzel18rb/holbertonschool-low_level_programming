@@ -4,18 +4,15 @@
 #include <time.h>
 
 /**
- *  main - Entry point
- *  Return: Always 0 (Success)
+ *  print_alphabet - print the avecedary
  */
 
-int main(void)
+void print_alphabet(void)
 {
 char letter;
 
 for (letter = 'a'; letter <= 'z'; letter++)
-putchar(letter);
-putchar ('\n');
+_putchar (letter);
+_putchar ('\n');
 
-void print_alphabet(void);
-return (0);
 }
