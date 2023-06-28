@@ -1,7 +1,3 @@
-/*
- * File: 0-whatsmyname.c
- * Auth: Lalo Rdz
- */
 #include "main.h"
 
 /**
