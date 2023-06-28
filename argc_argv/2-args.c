@@ -1,7 +1,3 @@
-/*
- * File: 2-args.c
- * Auth: Lalo Rdz
- */
 #include "main.h"
 
 /**
