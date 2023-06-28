@@ -1,7 +1,3 @@
-/*
- * File: 4-add.c
- * Auth: Lalo Rdz
- */
 #include "main.h"
 
 void print_number(int n);
