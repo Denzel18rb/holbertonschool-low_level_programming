@@ -20,15 +20,15 @@ int sum_them_all(const unsigned int n, ...)
 	{
 		return (0);
 	}
-	
+
 	add = 0;
-	for (i= 0; i < n; i++)
+	for (i = 0; i < n; i++)
 	{
 		alm = va_arg(ap, int);
 		add = add + alm;
 	}
 
-	va_end(ap);
-	
+	va_end(ap)
+
 	return (add);
 }
