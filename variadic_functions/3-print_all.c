@@ -53,11 +53,11 @@ void p_string(va_list ap)
 void print_all(const char * const format, ...)
 {
 	print_t prints[] = {
-		{"c", p_char},
-		{"i", p_integer},
-		{"f", p_float},
-		{"s", p_string},
-		{NULL, NULL}
+	{"c", p_char},
+	{"i", p_integer},
+	{"f", p_float},
+	{"s", p_string},
+	{NULL, NULL}
 	};
 
 	unsigned int i = 0, j = 0;
@@ -82,3 +82,7 @@ void print_all(const char * const format, ...)
 
 		i++;
 	}
+
+	printf("\n");
+	va_end(ap);
+}
