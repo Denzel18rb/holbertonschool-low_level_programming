@@ -1,6 +1,4 @@
-/*
- * Auth: Lalo Rdz
- */
+
 #include "main.h"
 
 int check_int(int x, int n);
